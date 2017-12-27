@@ -2,14 +2,24 @@
   "name": "@workpop/tnet",
   "version": "1.0.0",
   "description": "http://tnetstrings.org for node",
-  "homepage": "http://github.com/worokpop/tnet",
+  "homepage": "http://github.com/workpop/tnet",
   "author": "Workpop Engineering <tech@workpop.com>",
-  "keywords": ["mongrel2", "netstrings", "tnetstrings"],
+  "keywords": [
+    "mongrel2",
+    "netstrings",
+    "tnetstrings"
+  ],
   "repository": {
     "type": "git",
     "url": "http://github.com/workpop/tnet.git"
   },
   "engines": {
     "node": ">=0.6"
+  },
+  "scripts": {
+    "test": "node ./tests.js"
+  },
+  "devDependencies": {
+    "standard-version": "^4.2.0"
   }
 }

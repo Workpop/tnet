@@ -1,16 +1,18 @@
 # tnet.js
 
-An implementation of [TNetStrings](http://tnetstrings.org) for node.js
+> An implementation of [TNetStrings](http://tnetstrings.org) for node.js. Forked by @workpop with added support for the `;` delimiter used by [`mitmproxy`](https://mitmproxy.org/).
 
-# Install
+## Install
 
-	$ npm install tnet
+```bash
+$ yard add @workpop/tnet
+```
 
-# Usage
+## Usage
 
 ```javascript
 
-var Tnet = require('tnet')
+var Tnet = require('@workpop/tnet')
 
 // parse
 
@@ -36,4 +38,10 @@ Tnet.stringify(null) === "0:~"
 Tnet.stringify({count:99}) === "13:5:count,2:99#}"
 Tnet.stringify(['A','B','C']) === "12:1:A,1:B,1:C,]"
 
+```
+
+## Tests
+
+```bash
+yarn test
 ```
