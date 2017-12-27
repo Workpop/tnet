@@ -1,13 +1,15 @@
 {
-  "name": "tnet",
-  "version": "1.1.1",
+  "name": "@workpop/tnet",
+  "version": "1.0.0",
   "description": "http://tnetstrings.org for node",
-  "homepage": "http://github.com/dannycoates/tnet",
-  "author": "Danny Coates <dannycoates@gmail.com>",
+  "homepage": "http://github.com/worokpop/tnet",
+  "author": "Workpop Engineering <tech@workpop.com>",
   "keywords": ["mongrel2", "netstrings", "tnetstrings"],
   "repository": {
     "type": "git",
-    "url": "http://github.com/dannycoates/tnet.git"
+    "url": "http://github.com/workpop/tnet.git"
   },
-  "engines": { "node": ">=0.6" }
+  "engines": {
+    "node": ">=0.6"
+  }
 }
