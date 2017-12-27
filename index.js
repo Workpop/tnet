@@ -21,6 +21,7 @@ function parse (string) {
 		case '~':
 			console.assert(data.value.length === 0, "Payload must be 0 length for null.")
 			break;
+		case ';':
 		case ',':
 			value = data.value
 			break;

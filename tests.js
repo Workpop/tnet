@@ -2,6 +2,7 @@ var assert = require('assert')
     Tnet = require('./index')
 
 assert.strictEqual("foo", Tnet.parse("3:foo,"))
+assert.strictEqual("bar", Tnet.parse("3:bar;"))
 assert.strictEqual("®", Tnet.parse("2:®,"))
 assert.strictEqual(12, Tnet.parse("2:12#"))
 assert.strictEqual(12.3, Tnet.parse("4:12.3^"))
